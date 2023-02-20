@@ -8,7 +8,6 @@ db:
   mysql:
     host: "sql12.freesqldatabase.com"
     port: "3306"
-    user: "sql12597819"
-    password: "9SuHth3LSQ"
-    name: "sql12597819"
-    
+    user: "sql12599656"
+    password: "8iE6MzDnAr"
+    name: "sql12599656"

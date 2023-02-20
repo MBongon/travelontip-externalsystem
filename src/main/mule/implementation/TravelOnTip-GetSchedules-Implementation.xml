@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
 	<sub-flow name="TravelOnTip-GetSchedules-ImplementationSub_Flow" doc:id="9d0f2dca-6640-420e-96ea-43043961e482">
 	<db:select doc:name="Select Schedules for TravelOnTip System" doc:id="65cded01-f04a-4c2b-9af9-f3906dc5d052" config-ref="Database_Config">
-			<db:sql ><![CDATA[select * from schedules where companyname= 'TravelOnTip']]></db:sql>
+			<db:sql ><![CDATA[select * from schedules where companyName= 'TravelOnTip']]></db:sql>
 		</db:select>
 		<ee:transform doc:name="Transform Db Response in json" doc:id="1cb2c31e-10b3-4934-b033-59c929cfa1af" >
 			<ee:message >
